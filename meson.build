@@ -1,7 +1,7 @@
 project(
   'zonbud',
   'fortran',
-  version: '1.01',
+  version: '3.01',
   license: 'CC0',
   meson_version: '>= 1.3.1',
   default_options : [
