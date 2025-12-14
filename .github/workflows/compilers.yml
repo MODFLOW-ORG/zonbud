@@ -29,7 +29,7 @@ jobs:
           - {os: windows-latest, compiler: gcc, version: 13, shell: pwsh, release: no, xcode: none}
           # test intel-classic
           - {os: ubuntu-22.04, compiler: intel-classic, version: 2021.7, shell: bash, release: no, xcode: none}
-          - {os: macos-15-intel, compiler: intel-classic, version: 2021.7, shell: bash, release: yes, xcode: 16.4}
+          - {os: macos-15-intel, compiler: intel-classic, version: 2021.6, shell: bash, release: yes, xcode: 16.4}
           # test previous gcc
           - {os: ubuntu-latest, compiler: gcc, version: 12, shell: bash, release: no, xcode: none}
           - {os: ubuntu-latest, compiler: gcc, version: 11, shell: bash, release: no, xcode: none}
